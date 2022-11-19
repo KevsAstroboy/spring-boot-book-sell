@@ -74,7 +74,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     }
 
-
+    @Bean
     public WebMvcConfigurer corsConfigurer(){
            return new WebMvcConfigurer() {
                @Override
