@@ -1,1 +1,1 @@
-web : java -Dspring.profiles.active=prod -Dserver.port=$PORT -jar target/*.jar
+web : java -Dspring.profiles.active=prod -Dserver.port=$PORT -jar target/spring-boot-book-sell-0.0.1-SNAPSHOT.jar
