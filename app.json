@@ -2,7 +2,7 @@
   "name": "spring-boot-book-sell",
   "buildpacks" : [
     {
-      "url": "heroku/heroku-maven-plugin"
+      "url": "heroku/java"
     }
   ]
 }
